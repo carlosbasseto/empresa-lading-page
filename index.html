@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+        margin: 0; 
+        border: 0;
+        padding: 0;
+        font-family: "Roboto", system-ui;
+    }
+
+    .home{
+        background-image: url(img/pattern1.png);
+        height: 180vh;
+        background-repeat: no-repeat;
+    }
+
+    .cabecario{
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        background-color: rgb(18,45,119);
+        width: 100%;
+    }
+
+    .lista-home{
+        display: flex;
+        list-style: none;
+        margin-top: 15px;
+        margin-left: 32%;
+    }
+
+    .item-lista{
+        color: white;
+        padding: 15px;
+        
+    }
+
+    .btn{
+        margin-right: 50px;
+        height: 50px;
+        margin-top: 15px;
+        background-color: rgb(40, 216, 121);
+        color: white;
+        width: 150px;
+        font-size: 15px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+   .btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   }
+
+    .logo{
+        margin: 25px;
+    }
+
+    button:hover{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    h2{
+        color: white;
+        margin-left: 150px;
+        font-size: 50px;
+        margin-top: 150px;
+    }
+
+    h1{
+        margin-left: 150px;
+        margin-top: 20px;
+        color: white;
+        font-size: 70px;
+    }
+
+    .texto-home{
+        color: white;
+        margin-left: 150px;
+        margin-top: 25px;
+    }
+    
+    .img-cll{
+        width: 30pc;
+        margin-left: 200px;
+    }
+
+    .container-home{
+        display: flex;
+    }
+
+    .btn-1{
+        background-color: rgb(40, 216, 121);
+        width: 150px;
+        padding: 10px;
+        color: white;
+        font-size: 15px;
+        border-radius: 8px;
+        cursor: pointer;
+        height: 50px;
+        margin: 25px;
+    }
+
+    .btn-1:hover{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .btn-2{
+        background-color: transparent;
+        border: 2px solid rgb(0,152, 225);
+        width: 150px;
+        padding: 10px;
+        color: white;
+        font-size: 15px;
+        border-radius: 8px;
+        cursor: pointer;
+        height: 50px;
+        margin: 25px;
+    }
+
+    .btn-2:hover{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    
+    .container-btn-home{
+        display: flex;
+        margin-left: 200px;
+        margin-top: 25px
+    }
+
+    
+
+    .container-2{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .home-3{
+        background-image: url(img/bost.png);
+        background-repeat: no-repeat;
+        height: 220vh;
+    }
+  
+    .container-4{
+        background-image: url(img/b.png);
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .btn-4{
+        background-color: rgb(40, 216, 121);
+        color: white;
+        font-size: 15px;
+        width: 200px;
+        padding: 10px;
+        border-radius: 8px;
+        margin-top: 45px;
+        cursor: pointer;
+    }
+
+
+
+</style>
+
+<body>
+    <section class="home" >
+        <header class="cabecario">
+            <img class="logo" src="img/logo.png" alt="">
+            <ul class="lista-home">
+                <li class="item-lista">Home</li>
+                <li class="item-lista">Our Partner</li>
+                <li class="item-lista">Our Services</li>
+                <li class="item-lista">Tesrimonials</li>
+                
+            </ul>
+            <button class="btn">Get Free quote</button>
+        </header>
+
+        <div class="container-home">
+            
+            <div class="inicial">
+                <h2>We're</h2>
+                <h1>Marketing<br>Agency</h1>
+                <p class="texto-home">It is a long established fact that a reader will be distracted<br> by the readable content of a page when looking at its <br>layout.</p>
+                <div class="container-btn-home">
+                    <button class="btn-1">Get Started</button>
+                    <button class="btn-2">Learn More </button>
+                </div>
+            </div>
+            
+            <div class="container-img-home">
+                <img class="img-cll" src="img/img-home,.png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="home-2">
+        <div class="container-2">
+            <div class="iten-esquerdo">
+                <div style="display: flex; margin-top: 150px;">
+                    <div style="margin-left: 50px;">
+                        <img src="img/img-2.png" alt="">
+                    </div>
+                    <div>
+                        <p style="font-size: 25px;">1000 + User</p>
+                        <p>It is a long established fact that a reader will be<br> distraest cted by the readable as making opposed.</p>
+                    </div>   
+                </div>
+                <div style="display: flex;   margin-top: 50px;">
+                    <div style="margin-left: 50px;">
+                        <img src="img/img-3.png" alt="">
+                    </div>
+                    <div>
+                        <p style="font-size: 25px;">1000 + User</p>
+                        <p>It is a long established fact that a reader will be<br> distraest cted by the readable as making opposed.</p>
+                    </div>   
+                </div>
+
+            </div>
+
+            <div class="linha-play">
+                <img src="img/Divider.png" alt="">
+            </div>
+
+
+            <div class="item-direito">
+                <div class="iten-esquerdo">
+                    <div style="display: flex;">
+                        <div >
+                            <img src="img/img-1.png" alt="">
+                        </div>
+                        <div>
+                            <p style="font-size: 25px;">1000 + User</p>
+                            <p style="margin-right: 50px;">It is a long established fact that a reader will be<br> distraest cted by the readable as making opposed.</p>
+                        </div>   
+                    </div>
+                    <div class="iten-esquerdo">
+                        <div style="display: flex;  margin-top: 110px;">
+                            <div>
+                                <img src="img/img-4.png" alt="">
+                            </div>
+                            <div>
+                                <p style="font-size: 25px;">1000 + User</p>
+                                <p>It is a long established fact that a reader will be<br> distraest cted by the readable as making opposed.</p>
+                            </div>   
+                        </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-3">
+        <div style="display: flex;">
+            <div style="margin-top: 700px;">
+                <img style="width: 600px;" src="img/boost-your-website.png" alt="">
+            </div>
+            <div class="conteudo-home-3">
+                <p style="margin-top: 700px; margin-left: 450px; color: white; font-size: 32px;">So Ready To</p>
+                <p style=" margin-left: 170px; color: white; font-size: 50px; margin-top: 15px;font-weight: bold;">Boosts Your Website</p>
+                <div style="margin-top: 100px;">
+                    <p style="color: white; text-align: right; margin-top: 9px;">It is a long established fact that a reader will be distracted by the readable<br></p>
+                    <p style="color: white; text-align: right; margin-top: 9px;">content of a page when looking at its layout. The point of using Lorem Ipsum is<br></p>
+                    <p style="color: white; text-align: right; margin-top: 9px;">that it has a more-or-less normal distribution of letters, as opposed to using<br></p>
+                    <p style="color: white; text-align: right; margin-top: 9px;">Content here, content here', making it look like readable English. Many desktop<br></p>
+                    <p style="color: white; text-align: right; margin-top: 9px;">publishing packages and web page editors now use Lorem Ipsum as their<br></p>
+                    <p style="color: white; text-align: right; margin-top: 9px;">default model text, and a search for 'lorem ipsum' will uncover many web sites<br></p>
+                    <p style="color: white; text-align: right; margin-top: 9px;">still in their infancy. Various versions have evolved over the years, sometimes<br></p>
+                    <p style="color: white; text-align: right; margin-top: 9px;">by accident, sometimes on purpose (injected humour and the like).</p>
+                </div>
+                <div class="input" style="display: flex; background-color: white; width: 70%; margin-left: 200px; margin-top: 50px; height: 80px; border-radius: 88px;" >
+                    <input style="margin-left: 20px; height: 50px; margin-top: 15px; width: 165px; border: none;" type="text" placeholder="Your Website Address Here">
+                    <button style="margin-left: 70px;height: 40px; width: 150px; margin-top: 20px; background-color:rgb(40, 216, 121); border-radius: 18PX; color: white; font-weight: bold; font-size: 15px; cursor: pointer;">Subimit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="home-4">
+        <div class="container-4" >
+            <div class="container-step" style="display: flex;" >
+                <div class="step-1" style="width: 19%; margin-left:1.5%; text-align: center;" >
+                    <img src="img/step-1.png" alt="" style="margin-top: 150px; ">
+                    <p style="color: white; font-weight: bold; font-size: 18px;
+                    margin-top: 20px; text-align: center;">Confirm Order</p>
+                    <p style="color: white; font-weight: 100; margin-top: 5px;">There are many variations<br></p>
+                    <p style="color: white; font-weight: 100; margin-top: 5px;">of passages of Lorem</p>
+                    <p style="color: white; font-weight: 100; margin-top: 5px;">Ipsum available, but the</p>
+                    <p style="color: white; font-weight: 100; margin-top: 5px;">majority have suffered.</p>
+                </div>
+
+                <div class="step-2" style="width: 19%;text-align: center;">
+                    <img src="img/step-2.png" alt="" style="margin-top: 150px;">
+                    <p style="color: white; font-weight: bold; font-size: 18px; 
+                    margin-top: 20px; margin-left: 10px;">Give Site Link</p>
+                    <p style="color: white; font-weight: 100; margin-top: 5px;">There are many variations<br></p>
+                    <p style="color: white; font-weight: 100; margin-top: 5px;">of passages of Lorem</p>
+                    <p style="color: white; font-weight: 100; margin-top: 5px;">Ipsum available, but the</p>
+                    <p style="color: white; font-weight: 100; margin-top: 5px;">majority have suffered.</p>
+                </div>
+
+                <div class="step-3" style="width: 19%;text-align: center;">
+                    <img src="img/step-3.png" alt="" style="margin-top: 150px;">
+                    <p style="color: white; font-weight: bold; font-size: 18px;
+                    margin-top: 20px;">Requirement</p>
+                    <p style="color: white; font-weight: 100; margin-top: 5px;">There are many variations<br></p>
+                    <p style="color: white; font-weight: 100; margin-top: 5px;">of passages of Lorem</p>
+                    <p style="color: white; font-weight: 100; margin-top: 5px;">Ipsum available, but the</p>
+                    <p style="color: white; font-weight: 100; margin-top: 5px;">majority have suffered.</p>
+                </div>
+
+                <div class="step-4" style="width: 19%;text-align: center;">
+                    <img src="img/step-4.png" alt="" style="margin-top: 150px;">
+                    <p style="color: white; font-weight: bold; font-size: 18px;
+                    margin-top: 20px;">Get a Quote</p>
+                    <p style="color: white; font-weight: 100; margin-top: 5px;">There are many variations<br></p>
+                    <p style="color: white; font-weight: 100; margin-top: 5px;">of passages of Lorem</p>
+                    <p style="color: white; font-weight: 100; margin-top: 5px;">Ipsum available, but the</p>
+                    <p style="color: white; font-weight: 100; margin-top: 5px;">majority have suffered.</p>
+                </div>
+
+                <div class="step-5" style="width: 19%;text-align: center;">
+                    <img src="img/step-5.png" alt="" style="margin-top: 150px;">
+                    <p style="color: white; font-weight: bold; font-size: 18px;
+                    margin-top: 20px;">Payment</p>
+                    <p style="color: white; font-weight: 100; margin-top: 5px;">There are many variations<br></p>
+                    <p style="color: white; font-weight: 100; margin-top: 5px;">of passages of Lorem</p>
+                    <p style="color: white; font-weight: 100; margin-top: 5px;">Ipsum available, but the</p>
+                    <p style="color: white; font-weight: 100; margin-top: 5px;">majority have suffered.</p>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <button class="btn-4">Ready to Go?</button>
+            </div>
+            
+        </div>
+    </section>
+
+    <section style="height: 100vh;">
+        <p style="font-size: 30px; color: rgb(104,104,104); font-weight: 300; margin-left: 5%; margin-top: 50px;">Tesrimonials</p>
+        <p style="margin-left: 5%; font-size: 38px;">Love From Clients</p>
+        <p style="margin-left: 5%; color: rgb(104,104,104); margin-top: 35px;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it<br> has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing<br> packages and web page.</p>
+
+        <div class="container-card" style="display: flex; justify-content: space-between; margin-top: 100px;">
+            <div class="card" style="width: 27%; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;; height: 55vh; border-radius: 17px; margin-left: 50px;">
+                <div class="info-user" style="display: flex;">
+                    <div class="img-user">
+                        <img src="img/pessoa-1.jpg" alt="" style="border-radius: 50%; margin: 25px;">
+                    </div>
+                    <div class="container-info-user">
+                        <div class="nome-user" style="display: flex;">
+                            <p style="font-size: 25px; margin-top: 25px;">Rock Em.</p>
+                            <img src="img/verified-user.png" alt="" style="width: 50px; height: 38px; margin-top: 20px;">
+                        </div>
+                        <p style="color: rgb(104,104,104);">HR Head, Company</p>
+                        <img src="img/star.png" alt="" style="margin-top: 8px;">
+                    </div>
+                </div>
+                <p style="margin: 25px; font-size: 26px;">Quick Support !!!</p>
+                <p style="margin-left: 25px; font-weight: 400; color: rgb(104,104,104);">It is a long established fact that a reader<br> will be distracted by the readable content<br>of a page when looking at its layout. The<br> ponint of using Lorem ipsum is that it has a<br>more.</p>
+            </div>
+
+            <div class="card" style="width: 27%; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;; height: 55vh; border-radius: 17px;">
+                <div class="info-user" style="display: flex;">
+                    <div class="img-user">
+                        <img src="img/pessoa-2.jpg" alt="" style="border-radius: 50%; margin: 25px;">
+                    </div>
+                    <div class="container-info-user">
+                        <div class="nome-user" style="display: flex;">
+                            <p style="font-size: 25px; margin-top: 25px;">Tisa Emmni</p>
+                            <img src="img/verified-user.png" alt="" style="width: 50px; height: 38px; margin-top: 20px;">
+                        </div>
+                        <p style="color: rgb(104,104,104);">CEO, Company</p>
+                        <img src="img/star.png" alt="" style="margin-top: 8px;">
+                    </div>
+                </div>
+                <p style="margin: 25px; font-size: 26px;">Great Work !!!</p>
+                <p style="margin-left: 25px; font-weight: 400; color: rgb(104,104,104);">It is a long established fact that a reader<br> will be distracted by the readable content<br>of a page when looking at its layout. The<br> ponint of using Lorem ipsum is that it has a<br>more.</p>
+            </div>
+
+            <div class="card" style="width: 27%; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;; height: 55vh; border-radius: 17px; margin-right: 50px;">
+                <div class="info-user" style="display: flex;">
+                    <div class="img-user">
+                        <img src="img/pessoa-3.jpg" alt="" style="border-radius: 50%; margin: 25px;">
+                    </div>
+                    <div class="container-info-user">
+                        <div class="nome-user" style="display: flex;">
+                            <p style="font-size: 25px; margin-top: 25px;">Joly Deo</p>
+                            <img src="img/verified-user.png" alt="" style="width: 50px; height: 38px; margin-top: 20px;">
+                        </div>
+                        <p style="color: rgb(104,104,104);">Designer, Company</p>
+                        <img src="img/star.png" alt="" style="margin-top: 8px;">
+                    </div>
+                </div>
+                <p style="margin: 25px; font-size: 26px;">Love it !!!</p>
+                <p style="margin-left: 25px; font-weight: 400; color: rgb(104,104,104);">It is a long established fact that a reader<br> will be distracted by the readable content<br>of a page when looking at its layout. The<br> ponint of using Lorem ipsum is that it has a<br>more.</p>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>
